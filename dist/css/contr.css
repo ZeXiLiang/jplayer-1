@@ -1,0 +1,632 @@
+
+#cas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -111111;
+}
+body{
+	background: green;
+}
+button {
+	border: none;
+outline: none;
+}
+
+/* 滚动条*/
+
+#roll_T {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 160px;
+    z-index: 999;
+    width: 200px;
+    overflow: hidden;
+}
+#roll_1 {
+    width: 800%;
+    float: left;
+    display: inline;
+}
+#roll_T #roll_1 ul {
+    float: left;
+    display: inline;
+    margin-top: 4px;
+}
+#roll_T #roll_1 ul li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    font-size: 16px;
+
+   color: #fff;
+font-family: Inter,X-LocaleSpecific,sans-serif;
+line-height: 1.5;
+}
+ul li.lists {
+    display: block;
+    list-style-position: outside;
+    padding-left: 1em;
+}
+.fl a {
+    text-decoration: none;
+    font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+        font-weight: normal;
+    font-weight: 700;
+    color: #da1b60;
+    background: #fff;
+        background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    display: block;
+}
+/*背景颜色*/
+#jp_container_1 {
+	background: #f3f3f3;
+}
+
+.jp-audio: focus,
+.jp-audio-stream: focus,
+.jp-video: focus {
+	outline: 0
+}.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+	border: 0
+}
+/* 颜色 */
+.jp-audio,
+.jp-audio-stream,
+.jp-video {
+	  font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    line-height: 1.5;
+    color: #fff;
+
+}.jp-audio {
+	width: 420px
+}.jp-audio-stream {
+	width: 182px
+}.jp-video-270p {
+	width: 480px
+}.jp-video-360p {
+	width: 640px
+}.jp-video-full {
+	width: 480px;
+	height: 270px;
+	position: static!important;
+	position: relative
+}.jp-video-full div div {
+	z-index: 1000
+}.jp-video-full.jp-jplayer {
+	top: 0;
+	left: 0;
+	position: fixed!important;
+	position: relative;
+	overflow: hidden
+}
+.jp-video-full.jp-gui {
+	position: fixed!important;
+	position: static;
+	top: 0;
+	left: 0;
+	width: 100 % ;
+	height: 100 % ;
+	z-index: 1001
+}.jp-video-full.jp-interface {
+	position: absolute!important;
+	position: relative;
+	bottom: 0;
+	left: 0
+}
+.jp-type-playlist{
+	
+text-align: left;
+
+background: #000;
+}
+
+/*控制器 背景颜色*/
+.jp-gui {
+
+	position: absolute;
+top: 250px;
+left: 60px;
+	height:20px;
+	width: 600px;
+	/* background:#2a5caa;*/
+	font-size: 0;
+
+}
+/*jp-interface 控制器内 元素 */
+.jp-interface {
+
+	text-align: left;
+	line-height: 20px;
+	height: 20px;
+	font-size: 0;
+    width: 100%;
+	/*background-color: #007d65;*/
+	
+}
+/*********************************/
+.jp-progress{
+	display: inline-block; 
+	position: relative;
+	left: 50px;
+	top: -2px;
+	line-height: 20px;
+	height: 20px;
+vertical-align: middle;
+	z-index: 999;
+    height: 1px;
+    width: 120px;
+    background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+	overflow:hidden;
+}
+/*****************************************/
+.jp-current-time,
+.jp-duration {
+	display: inline-block;
+position: relative;
+top: -8px;
+left: -12px;
+width: 30px;
+
+	font-size: 12px;
+z-index: 0;
+cursor: pointer;
+}.jp-duration {
+		width: 40px;
+	
+}
+.jp-duration:before {
+	position: relative;
+	top: -4px;
+	content: "| ";
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+/*****************kongzhi***********************/
+.jp-controls-holder{
+	display: inline-block;
+
+	text-align: center;
+	line-height: 20px;
+	height: 20px;
+	font-size: 0;
+
+	width:300px;
+	overflow:hidden;
+	clear:both;
+}
+
+
+.jp-controls{
+	display: inline-block;
+	position: relative;
+	
+	line-height: 20px;
+	height: 20px;
+	overflow:hidden; 
+	
+	text-align: left;
+	font-size: 0;
+	width: 186px;
+	/*background: red;*/
+
+}
+
+.jp-controls button{
+	line-height: normal;
+	vertical-align: margin;
+
+
+	overflow:hidden;
+	margin-left: 10px;
+
+	text-indent:-9999px;
+	cursor:pointer;
+}
+.jp-toggles {
+	
+	display: inline-block;
+	text-align:left;
+line-height: 20px;
+height: 20px;
+	width: 100%;
+	max-width: 90px;
+
+	font-size: 0;
+	overflow: hidden;
+}
+
+.jp-toggles button {
+	
+	line-height: normal;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 12px;
+	text-indent: -9999px;
+	
+	cursor: pointer;
+}
+.jp-volume-controls {
+	display: inline-block;
+	position: relative;
+	top: -10px;
+	left: -40px;
+	line-height: 20px;
+    font-size: 0;
+	text-align: left;
+	vertical-align: middle;
+	width: 100px;
+	height: 20px;
+	/*background: orange;*/
+
+}
+.jp-volume-controls button {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-indent: -9999px;
+
+	cursor: pointer
+}
+.jp-mute {
+	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	width: 14px;
+	height: 12px
+
+}.jp-mute: focus {
+	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	width: 7px;
+	height: 11px;
+}.jp-state-muted .jp-mute {
+	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	width: 7px;
+	height: 12px;
+}.jp-state-muted .jp-mute: focus {
+	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	width: 14px;
+	height: 12px;
+}.jp-volume-max {
+	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	width: 14px;
+	height: 12px;
+	
+}.jp-volume-max: focus {
+	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	width: 7px;
+	height: 11px;
+}
+.jp-volume-bar {
+	
+	
+	display: inline-block;
+	line-height: 1.5;
+	margin-left: 10px;
+	background: url('./dist/image/sucai.png') no-repeat -98px -178px;
+	width: 60px;
+	height: 1px;
+   vertical-align: middle;
+	overflow: hidden;
+	cursor: pointer
+}.jp-volume-bar-value {
+	background: url('./dist/image/sucai.png') no-repeat -98px -181px;
+	
+	height: 1px;
+}
+
+
+/*
+.jp-play{
+	
+	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+	width: 5px;
+	height: 8px;
+}
+.jp-play:focus{
+	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+	width: 6px;
+	height: 6px;
+}
+
+ */
+
+.jp-play{
+	
+	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+
+
+
+	width: 6px;
+	height: 8px;
+position: relative;
+top: -1px;
+
+}
+.jp-play:focus{
+	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+	
+	width: 6px;
+	height: 8px;
+}
+.jp-state-playing .jp-play{
+	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+	width: 6px;
+	height: 6px;
+}
+.jp-state-playing .jp-play:focus{
+	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+
+	width: 6px;
+	height: 8px;
+}
+
+.jp-stop{
+	background: url('./dist/image/sucai.png') no-repeat -136px -170px;
+	width: 6px;
+	height: 6px;
+	}
+.jp-stop:focus{
+	background: url('./dist/image/sucai.png') no-repeat -136px -170px;
+	width: 6px;
+	height: 6px;}
+.jp-previous{
+	background: url('./dist/image/sucai.png') no-repeat -78px -169px;
+	width: 7px;
+	height: 8px;
+}
+.jp-previous:focus{
+	background: url('./dist/image/sucai.png') no-repeat -78px -169px;
+	width: 7px;
+	height: 8px;
+}
+.jp-next{
+	background: url('./dist/image/sucai.png') no-repeat -164px -168px;
+	width: 7px;
+	height: 8px;
+}
+.jp-next:focus{
+	background: url('./dist/image/sucai.png') no-repeat -164px -168px;
+	width: 7px;
+	height: 8px;
+}
+.jp-seek-bar {
+	background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+
+	width: 120px;
+	height: 1px;
+	width: 0;
+	height: 100%;
+	cursor: pointer
+}.jp-play-bar {
+	background: url('./dist/image/sucai.png') no-repeat -77px -163px;
+	width: 120px;
+	height: 1px;
+	width: 0;
+	height: 100 %
+}.jp-seeking-bg {
+	background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+	
+}.jp-state-no-volume.jp-volume-controls {
+	display: none
+}
+
+
+.jp-audio.jp-time-holder {
+	position: absolute;
+	top: 50px
+}.jp-audio.jp-type-single.jp-time-holder {
+	left: 110px;
+	width: 186px
+}.jp-audio.jp-type-playlist.jp-time-holder {
+	left: 166px;
+	width: 130px
+}.jp-details {
+	font-weight: 700;
+	text-align: center;
+	cursor: default
+}.jp-details,
+.jp-playlist {
+	width:270px;
+	background-color: #191919;
+	
+	}
+.jp-playlist {
+	position: absolute;
+	top: 80px;
+	left: 240px;
+}
+.bj{
+	height: 130px;
+border:1px solid #fff;
+}
+	.jp-details.jp-title{margin:0;padding:5px 10px;font-size:13px;font-weight:700}
+	.jp-playlist ul{list-style-type: none;margin:0;padding:0 10px;font-size:13px}
+	.jp-playlist li{
+		list-style-type:none;
+		list-style-type:decimal-leading-zero;
+		list-style-position:inside;
+		padding:2px 0;
+
+         color: red;
+         cursor: pointer;
+}.jp-playlist li div {
+	display: inline;
+	
+	list-style-type: none;
+}
+div.jp-type-playlist div.jp-playlist li: last-child {
+	padding: 5px 0 ;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+
+
+		list-style-type:decimal-leading-zero;
+		list-style-position:inside;
+		padding:2px 0;
+		color: #ff00ff;
+}
+div.jp-type-playlist div.jp-playlist li:hover {
+	color: #ff00ff;
+}
+div.jp-type-playlist div.jp-playlist a {
+	color: red;text-decoration:none;
+ outline:none; 
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-current,
+div.jp-type-playlist div.jp-playlist a:hover{color: #ff00FF;}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+	float: right;
+	display: inline;
+	text-align: right;
+	margin-right: 10px;
+	font-weight: 700;
+	color: #666}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover{
+	color:#0d88c1
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+	float: right;
+	display: inline;
+	text-align: right;
+	margin-right: 10px
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a {
+	color: #666}div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover{
+		color:#0d88c1
+}
+span.jp-artist {
+	font-size: .8em;
+	color: #666
+	}
+.jp-video-play{
+	width:100%;overflow:hidden;cursor:pointer;background-color:transparent
+	}
+.jp-video-270p.jp-video-play{margin-top:-270px;height:270px}
+.jp-video-360p.jp-video-play{margin-top:-360px;height:360px}
+.jp-video-full.jp-video-play{height:100%}
+.jp-video-play-icon{
+	position:relative;display:block;
+	width:112px;height:100px;
+	margin-left:-56px;margin-top:-50px;left:50%;top:50%;
+	background:url(../image/jplayer.blue.monday.video.play.png)no-repeat;
+	text-indent:-9999px;border:none;cursor:pointer}
+.jp-video-play-icon:focus{
+	background:url(../image/jplayer.blue.monday.video.play.png)0-100px no-repeat}
+.jp-jplayer,.jp-jplayer audio{width:0;height:0}
+.jp-jplayer{background-color:#000;
+display: none;
+}
+
+.jp-audio.jp-type-single.jp-toggles {
+	width: 25px
+}
+.jp-audio.jp-type-playlist.jp-toggles {
+	width: 55px;
+	margin: 0;
+	position: absolute;
+	left: 325px;
+	top: 50px
+}
+
+.jp-full-screen {
+	background: url(../image/jplayer.blue.monday.jpg) 0-310px no-repeat;
+	margin-left: 20px
+}.jp-full-screen: focus {
+	background: url(../image/jplayer.blue.monday.jpg)-30px-310px no-repeat
+}.jp-state-full-screen.jp-full-screen {
+	background: url(../image/jplayer.blue.monday.jpg)-60px-310px no-repeat
+}.jp-state-full-screen.jp-full-screen: focus {
+	background: url(../image/jplayer.blue.monday.jpg)-90px-310px no-repeat
+}
+/*单曲循环*/
+.jp-state-looped.jp-repeat {
+	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	width: 16px;
+	height: 16px;
+}.jp-state-looped.jp-repeat: focus {
+	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+.jp-repeat {
+	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}.jp-repeat:focus {
+	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+/*随机播放*/
+.jp-shuffle {
+	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	width: 17px;
+	height: 14px;
+	margin-left: 10px;
+}
+.jp-shuffle:focus {
+	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	width: 17px;
+	height: 14px;
+}
+
+
+.jp-state-shuffled .jp-shuffle {
+	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	width: 17px;
+	height: 14px;
+}
+.jp-state-shuffled .jp-shuffle:focus {
+	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	width: 17px;
+	height: 14px;
+}
+.list {
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	margin-right: 10px;
+
+	line-height: normal;
+	vertical-align: middle;
+	background: url('./dist/image/sucai.png') no-repeat -181px -168px;
+	width: 13px;
+	height: 9px;
+	cursor: pointer;
+}
+
+
+.jp-no-solution {
+	padding: 5px;
+	font-size: .8em;
+	background-color: #eee;
+	
+	display: none
+}.jp-no-solution a {
+	color: #000
+}
+.jp-no-solution span{
+	font-size:12px;
+	display:block;
+	text-align:center;font-weight:700}
