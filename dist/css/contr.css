@@ -166,7 +166,7 @@ vertical-align: middle;
 	z-index: 999;
     height: 1px;
     width: 120px;
-    background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+    background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -77px -165px;
 	overflow:hidden;
 }
 /*****************************************/
@@ -287,29 +287,29 @@ height: 20px;
 	cursor: pointer
 }
 .jp-mute {
-	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -25px -142px;
 	width: 14px;
 	height: 12px
 
 }.jp-mute: focus {
-	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -52px -142px;
 	width: 7px;
 	height: 11px;
 }.jp-state-muted .jp-mute {
-	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -52px -142px;
 	width: 7px;
 	height: 12px;
 }.jp-state-muted .jp-mute: focus {
-	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -25px -142px;
 	width: 14px;
 	height: 12px;
 }.jp-volume-max {
-	background: url('./dist/image/sucai.png') no-repeat -25px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -25px -142px;
 	width: 14px;
 	height: 12px;
 	
 }.jp-volume-max: focus {
-	background: url('./dist/image/sucai.png') no-repeat -52px -142px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -52px -142px;
 	width: 7px;
 	height: 11px;
 }
@@ -319,14 +319,14 @@ height: 20px;
 	display: inline-block;
 	line-height: 1.5;
 	margin-left: 10px;
-	background: url('./dist/image/sucai.png') no-repeat -98px -178px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -98px -178px;
 	width: 60px;
 	height: 1px;
    vertical-align: middle;
 	overflow: hidden;
 	cursor: pointer
 }.jp-volume-bar-value {
-	background: url('./dist/image/sucai.png') no-repeat -98px -181px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -98px -181px;
 	
 	height: 1px;
 }
@@ -335,12 +335,12 @@ height: 20px;
 /*
 .jp-play{
 	
-	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -97px -169px;
 	width: 5px;
 	height: 8px;
 }
 .jp-play:focus{
-	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -114px -170px;
 	width: 6px;
 	height: 6px;
 }
@@ -349,7 +349,7 @@ height: 20px;
 
 .jp-play{
 	
-	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -97px -169px;
 
 
 
@@ -360,54 +360,54 @@ top: -1px;
 
 }
 .jp-play:focus{
-	background: url('./dist/image/sucai.png') no-repeat -97px -169px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -97px -169px;
 	
 	width: 6px;
 	height: 8px;
 }
 .jp-state-playing .jp-play{
-	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -114px -170px;
 	width: 6px;
 	height: 6px;
 }
 .jp-state-playing .jp-play:focus{
-	background: url('./dist/image/sucai.png') no-repeat -114px -170px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -114px -170px;
 
 	width: 6px;
 	height: 8px;
 }
 
 .jp-stop{
-	background: url('./dist/image/sucai.png') no-repeat -136px -170px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -136px -170px;
 	width: 6px;
 	height: 6px;
 	}
 .jp-stop:focus{
-	background: url('./dist/image/sucai.png') no-repeat -136px -170px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -136px -170px;
 	width: 6px;
 	height: 6px;}
 .jp-previous{
-	background: url('./dist/image/sucai.png') no-repeat -78px -169px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -78px -169px;
 	width: 7px;
 	height: 8px;
 }
 .jp-previous:focus{
-	background: url('./dist/image/sucai.png') no-repeat -78px -169px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -78px -169px;
 	width: 7px;
 	height: 8px;
 }
 .jp-next{
-	background: url('./dist/image/sucai.png') no-repeat -164px -168px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -164px -168px;
 	width: 7px;
 	height: 8px;
 }
 .jp-next:focus{
-	background: url('./dist/image/sucai.png') no-repeat -164px -168px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -164px -168px;
 	width: 7px;
 	height: 8px;
 }
 .jp-seek-bar {
-	background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -77px -165px;
 
 	width: 120px;
 	height: 1px;
@@ -415,13 +415,13 @@ top: -1px;
 	height: 100%;
 	cursor: pointer
 }.jp-play-bar {
-	background: url('./dist/image/sucai.png') no-repeat -77px -163px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -77px -163px;
 	width: 120px;
 	height: 1px;
 	width: 0;
 	height: 100 %
 }.jp-seeking-bg {
-	background: url('./dist/image/sucai.png') no-repeat -77px -165px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -77px -165px;
 	
 }.jp-state-no-volume.jp-volume-controls {
 	display: none
@@ -521,7 +521,7 @@ span.jp-artist {
 .jp-video-270p.jp-video-play{margin-top:-270px;height:270px}
 .jp-video-360p.jp-video-play{margin-top:-360px;height:360px}
 .jp-video-full.jp-video-play{height:100%}
-.jp-video-play-icon{
+/*.jp-video-play-icon{
 	position:relative;display:block;
 	width:112px;height:100px;
 	margin-left:-56px;margin-top:-50px;left:50%;top:50%;
@@ -529,7 +529,7 @@ span.jp-artist {
 	text-indent:-9999px;border:none;cursor:pointer}
 .jp-video-play-icon:focus{
 	background:url(../image/jplayer.blue.monday.video.play.png)0-100px no-repeat}
-.jp-jplayer,.jp-jplayer audio{width:0;height:0}
+*/.jp-jplayer,.jp-jplayer audio{width:0;height:0}
 .jp-jplayer{background-color:#000;
 display: none;
 }
@@ -544,7 +544,7 @@ display: none;
 	left: 325px;
 	top: 50px
 }
-
+/*
 .jp-full-screen {
 	background: url(../image/jplayer.blue.monday.jpg) 0-310px no-repeat;
 	margin-left: 20px
@@ -555,50 +555,51 @@ display: none;
 }.jp-state-full-screen.jp-full-screen: focus {
 	background: url(../image/jplayer.blue.monday.jpg)-90px-310px no-repeat
 }
+*/
 /*单曲循环*/
 .jp-state-looped.jp-repeat {
-	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -51px -164px;
 	width: 16px;
 	height: 16px;
 }.jp-state-looped.jp-repeat: focus {
-	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -51px -164px;
 	width: 16px;
 	height: 16px;
 	margin-left: 10px;
 }
 
 .jp-repeat {
-	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -51px -164px;
 	width: 16px;
 	height: 16px;
 	margin-left: 10px;
 }.jp-repeat:focus {
-	background: url('./dist/image/sucai.png') no-repeat -51px -164px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -51px -164px;
 	width: 16px;
 	height: 16px;
 	margin-left: 10px;
 }
 /*随机播放*/
 .jp-shuffle {
-	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -24px -166px;
 	width: 17px;
 	height: 14px;
 	margin-left: 10px;
 }
 .jp-shuffle:focus {
-	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -24px -166px;
 	width: 17px;
 	height: 14px;
 }
 
 
 .jp-state-shuffled .jp-shuffle {
-	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -24px -166px;
 	width: 17px;
 	height: 14px;
 }
 .jp-state-shuffled .jp-shuffle:focus {
-	background: url('./dist/image/sucai.png') no-repeat -24px -166px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -24px -166px;
 	width: 17px;
 	height: 14px;
 }
@@ -610,7 +611,7 @@ display: none;
 
 	line-height: normal;
 	vertical-align: middle;
-	background: url('./dist/image/sucai.png') no-repeat -181px -168px;
+	background: url('https://zexiliang.github.io/jplayer-1/dist/image/sucai1.png') no-repeat -181px -168px;
 	width: 13px;
 	height: 9px;
 	cursor: pointer;
