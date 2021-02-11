@@ -3,15 +3,247 @@
 <head>
 <meta charset="utf-8" />
 <!-- Website Design By: www.happyworm.com -->
-<title>Demo : jPlayer as a media playlist player</title>
+<title>Demo : jP<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- Website Design By: www.happyworm.com -->
+<title>20210211</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="../../dist/skin/pink.flag/css/jplayer.pink.flag.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="../../lib/jquery.min.js"></script>
-<script type="text/javascript" src="../../dist/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="../../dist/add-on/jplayer.playlist.min.js"></script>
+	<!-- 1个样式文件 -->
+<link  rel="stylesheet" type="text/css" href="./contr.css"/>
+	<!-- 3个js文件 -->
+	<script src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://zexiliang.github.io/jplayer-1/lib/jquery.min.js"></script>
+<script type="text/javascript" src="https://zexiliang.github.io/jplayer-1/dist/jplayer/jquery.jplayer.js"></script>
+<script type="text/javascript" src="https://zexiliang.github.io/jplayer-1/dist/playlist.js"></script>
+
+
+
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function(){
+
+	new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			title:"耳机开大静静听，非常不错",
+			artist:"",
+			mp3:"http://183.232.63.150/amobile.music.tc.qq.com/C4000044Sub81TvQIw.m4a?guid=337380610&vkey=E9DE99CCACDCD079A159FBD80A407EFB8AA6FD5B7508FDE43C336F05DCD9A94C94905DA7CD5A8E78C6E920C1D91EA814511AC24B7AA71C31&uin=0&fromtag=66",
+			poster: ""
+		},
+		{
+			title:"私藏夜神嗨咋就这么嗨呢",
+			artist:"",
+			mp3:"http://183.232.63.151/amobile.music.tc.qq.com/C400004Ks6jW180tbz.m4a?guid=415803354&vkey=D7BBA0A73716BB8F3616ADC0F133F293400334D9B82D3894A38A8CCECF7B62A9D185A7E7CE70D2F5630705B2C8C05E51D398E20F996ED5A6&uin=0&fromtag=66",
+			poster: ""
+		},{
+			title:"我试着把孤独藏进耳机(抖音DJ原版)",
+			artist:"",
+			mp3:"http://isure.stream.qqmusic.qq.com/C400002NUf033I5SZp.m4a?guid=310084437&vkey=A48457EC9607AF9E57864568806D1BC0ED88AA591F1B43A44B25E2CFB1F3DE54722F4D80110725EB40FF6216374F95478EB4E72DC0A0BF11&uin=0&fromtag=66",
+			poster: ""
+		},{
+			title:"我要找到你，喊出你的名字",
+			artist:"",
+			mp3:"http://isure.stream.qqmusic.qq.com/C400001p96CZ2C2MxM.m4a?guid=914751242&vkey=C06566BA3F7C4A448069A6E81F3A8DD53BCDB89AAA72D77178EC6CD74E86D2FEF9FECE4F76021ED7D8B16B5D9654F19008FB7DF9D1CD01B9&uin=0&fromtag=66",
+			poster: ""
+		},
+		{
+			title:"人因欲望而真实 因情绪而鲜活",
+			artist:"",
+			mp3:"http://isure.stream.qqmusic.qq.com/C4000007qQ6F0BGRXG.m4a?guid=639033048&vkey=0DE1C60C9B38DF96BCA9DFA4FF7E4607D42DF5EC88EE5D773CBD1EAFC79C782DDF594467D8760504AD1B68E295EAD07940EF6D7D7B810C34&uin=0&fromtag=66",
+			poster: ""
+		}
+		/*
+			{title:"爱是电饭锅电饭锅电饭锅",
+			artist:"Pixar",
+			m4v: "http://www.jplayer.org/video/m4v/Incredibles_Teaser.m4v",
+			ogv: "http://www.jplayer.org/video/ogv/Incredibles_Teaser.ogv",
+			webmv: "http://www.jplayer.org/video/webm/Incredibles_Teaser.webm",
+			poster: "http://www.jplayer.org/video/poster/Incredibles_Teaser_640x272.png"
+		}*/
+	], {
+		swfPath: "",
+		supplied: " ogv, m4v, oga, mp3",
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		audioFullScreen: true
+	});
+});
+//]]>
+</script>
+<style>
+body,div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section,button,i,svg,path {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background:transparent;
+}
+ol, ul, li {
+	outline: none;
+    list-style: none;
+    font-family: "Microsoft YaHei";
+        font-size: 12px;
+    font-weight: 400;
+}
+
+li {
+    display: list-item;
+    
+}
+
+body {
+	background:#000;
+	color: #2f54eb;
+}
+</style>
+</head>
+
+<body>
+<div id="jp_container_1" class="jp-video jp-video-270p" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+		<div class="jp-playlist" id="lb">
+		<div class="bj">
+			<ul>
+				<!--  在此祝大家在新的一年里顺风顺水顺财神 天翔紫燕 地暖春风天高地阔 人寿年丰 天开淑景 The method Playlist.displayPlaylist() uses this unordered list -->
+				<li>&nbsp;</li>
+			</ul>&nbsp;&nbsp;&nbsp;--------------------------------------------------</div>
+		</div>
+
+	<!-- --------------------------------------  -->
+  <div id="roll_T" onmouseover="ir=window.clearInterval();" onmouseout="ir=setInterval('',1000);">
+	<div id="roll_1">
+		<ul id="T">
+			<li class="fl lists mr10 fir"> 歌曲为纯音乐,请欣赏。仅为测试,不提供下载 </li>
+		</ul>
+     </div>
+     </div>
+
+
+		<!-- ----------------------------------- -->
+		<div class="jp-gui">
+			<div class="jp-video-play">
+				<button class="jp-video-play-icon" role="button" tabindex="0">play</button>
+			</div>
+			<div class="jp-interface">
+				<div class="jp-progress">
+					<div class="jp-seek-bar">
+						<div class="jp-play-bar"></div>
+					</div>
+				</div>
+				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+				<div class="jp-controls-holder">
+					<div class="jp-controls">
+						<button class="jp-previous" role="button" tabindex="0">上一首</button>
+						<button class="jp-play" role="button" tabindex="0">play</button>
+						<button class="jp-stop" role="button" tabindex="0">stop</button>
+						<button class="jp-next" role="button" tabindex="0">下一首</button>
+						
+					<div class="jp-toggles">
+							<div class="list"></div>
+						<button class="jp-repeat" role="button" tabindex="0">q</button>
+						<button class="jp-shuffle" role="button" tabindex="0">q</button>
+						
+					</div>
+					</div>
+					<div class="jp-volume-controls">
+						
+						<div class="jp-volume-bar">
+							<div class="jp-volume-bar-value"></div>
+						</div>
+						<button class="jp-mute" role="button" tabindex="0">mute</button>
+						
+					</div>
+				
+				</div>
+				<div class="jp-details">
+					<div class="jp-title" aria-label="title">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+</div>
+
+<div>
+
+
+
+</body>
+<script type="text/javascript">
+
+
+</script>
+<script type="text/javascript">
+$(function(){
+  
+$(".list").click(function(){
+
+		$(".jp-playlist").fadeToggle("3000");
+	
+	});
+
+
+
+});
+       
+
+  window.onload = function(){
+            
+var myDate = new Date();
+ console.log(myDate.getMilliseconds());
+   /*  var aa ="当前曲目:" + $(".jp-playlist-current div a").eq(2).html(); 
+            console.log("11",aa);
+            
+            $(function(){ 
+            $(".jp-playlist-item").click(function(){
+               
+                var self = $(this).text();
+               console.log("1",self);
+             var dizhi ="当前曲目:"+ self;
+         $(".fir a").html(dizhi);
+        })
+
+        });*/
+
+            	var speed = 25
+			var s = document.getElementById("roll_T")
+			var i = document.getElementById("roll_1")
+			var t = document.getElementById("T")
+			i.appendChild(t.cloneNode(true))
+			function scroll()
+			{
+				 s.scrollLeft += 1
+				 if(s.scrollLeft >= t.offsetWidth) s.scrollLeft = 0;
+			}
+			window.setInterval(scroll,speed)
+     
+        }
+
+
+
+
+ 
+
+
+
+
+
+</script>
+</html>
 
 	new jPlayerPlaylist({
 		jPlayer: "#jquery_jplayer_1",
